@@ -15,7 +15,7 @@ def compareTriplets(a, b):
     return (tot_a,tot_b)
 
 if __name__ == '__main__':
-    # Getting files informaiton
+    # Getting files information
     input_file = open("/Users/seppuku_kum/Desktop/Coding_Challenges/CompareTheTriplets/input00.txt",'r')
     if input_file.mode == 'r':
         data = input_file.read().replace("\n"," ")
